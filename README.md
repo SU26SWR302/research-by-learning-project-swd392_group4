@@ -1,6 +1,5 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/rBNuyfdi)
 
-🚀 TrekMate Danang — Project Course
 # 📚 TrekMate Danang — Tìm bạn đi bộ đường dài
 
 Nền tảng quản lý và hỗ trợ tìm kiếm tour đi bộ đường dài tại Đà Nẵng, giúp kết nối người dẫn đoàn và khách hàng, tích hợp thuê đồ tự động và trợ lý AI tư vấn, được phát triển theo mô hình Research By Learning (RBL) với hàm lượng nghiên cứu chuyên sâu về thuật toán và kiến trúc hệ thống.
@@ -33,11 +32,14 @@ Nền tảng quản lý và hỗ trợ tìm kiếm tour đi bộ đường dài 
 
 Dự án này áp dụng phương pháp Research By Learning, tập trung vào các trụ cột:
 
-Business Intelligence: Giải quyết bài toán [Tên nghiệp vụ] thông qua thuật toán [Tên thuật toán].
+Business Intelligence: Giải quyết bài toán tối ưu hóa lộ trình di chuyển (Routing) và gợi ý lịch trình tour cá nhân hóa thông qua thuật toán Thuật toán di truyền (Genetic Algorithm).
 
-Công nghệ & Kiến trúc: Triển khai [Tên công nghệ] để tối ưu hóa hiệu năng hệ thống.
+Công nghệ & Kiến trúc: 
+    Triển khai kiến trúc Microservice hoặc Clean Architecture / Hexagonal Architecture với Java Spring Boot để đảm bảo tính mở rộng (Scalability).
+    Tối ưu hóa hiệu năng hệ thống thông qua cơ chế Caching (Redis) giúp giảm tải cho SQL Server khi truy vấn các tour phổ biến.
+    Tích hợp kỹ thuật RAG (Retrieval-Augmented Generation) kết hợp với Google Gemini API để xây dựng trợ lý AI có khả năng tư vấn tour chính xác dựa trên dữ liệu thời gian thực của TrekMate thay vì chỉ trả lời chung chung.
 
-Học thuật: Tổng hợp và phân tích từ danh mục 50 bài báo khoa học (IEEE, Springer...).
+Học thuật: Tổng hợp, phân tích và áp dụng lý thuyết từ danh mục 50 bài báo khoa học uy tín (IEEE, Springer...) về các chủ đề: Smart Tourism Integration, Automated Inventory Management Systems, và AI-driven Personalized Recommendation.
 
 ---
 
@@ -91,8 +93,10 @@ project-root/
 ---
 
 ### 📑 Tài liệu liên quan
-High-level Design: [Link file hoặc đường dẫn thư mục]
+Link Jira: https://tranquanghuyit101.atlassian.net/jira/software/projects/KAN/boards/2?atlOrigin=eyJpIjoiY2Q3MDNiNWMyMjk3NDZkMTgwN2Y4YzFjZWU0YzEwZjEiLCJwIjoiaiJ9
 
-Slides Báo cáo: [Link file]
+High-level Design: 
 
-Video Demo (nếu có): [Link Youtube/Drive]
+Slides Báo cáo: 
+
+Video Demo (nếu có):
