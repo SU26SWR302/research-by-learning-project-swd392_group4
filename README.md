@@ -99,4 +99,6 @@ High-level Design:
 
 Slides Báo cáo: 
 
+Paper: https://www.overleaf.com/read/wkhtfzrcbmnh#da960f
+
 Video Demo (nếu có):
